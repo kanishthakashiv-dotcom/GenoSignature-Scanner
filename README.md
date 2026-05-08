@@ -1,5 +1,6 @@
 # GenoSignature-Scanner
 (https://doi.org/10.5281/zenodo.20088673)
+
 The GenoSignature-Scanner is a Python-based bioinformatics tool for extracting localized genomic features. Using Biopython and customizable sliding windows, it calculates GC-density and CpG O/E ratios. The repository includes validated examples identifying bacterial genomic structures and human BRCA1 regulatory "skyscrapers"—a vital tool for gene "on-switch" detection.
 It is basically a modular Python-based bioinformatics tool designed for the automated detection of genomic signatures and regulatory elements. By utilizing a high-resolution sliding window methodology, the tool extracts localized chemical and statistical properties of DNA sequences.
 
@@ -27,6 +28,9 @@ Because E. coli is a bacterium, its DNA is packed tightly with genes. Your graph
 Because this is human DNA, most of the sequence is "quiet" (suppressed). You will see a lot of zeros, followed by a massive vertical spike (the "Skyscraper"). This spike is the Promoter, the molecular "On-Button" for the BRCA1 gene.
 
 <img width="1536" height="754" alt="ecoli_analysis" src="https://github.com/user-attachments/assets/674579e0-2d7a-4105-b8b6-21e66493cc4b" />
+
+
+
 
 <img width="1536" height="754" alt="BRCA1_analysis" src="https://github.com/user-attachments/assets/77b4b2cf-b029-4b93-888c-8c588de70be5" />
 
