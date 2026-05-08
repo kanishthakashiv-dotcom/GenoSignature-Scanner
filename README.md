@@ -1,5 +1,5 @@
 # GenoSignature-Scanner
-(https://doi.org/10.5281/zenodo.20088673)
+(https://doi.org/10.5281/zenodo.20090840)
 
 The GenoSignature-Scanner is a Python-based bioinformatics tool for extracting localized genomic features. Using Biopython and customizable sliding windows, it calculates GC-density and CpG O/E ratios. The repository includes validated examples identifying bacterial genomic structures and human BRCA1 regulatory "skyscrapers"—a vital tool for gene "on-switch" detection.
 It is basically a modular Python-based bioinformatics tool designed for the automated detection of genomic signatures and regulatory elements. By utilizing a high-resolution sliding window methodology, the tool extracts localized chemical and statistical properties of DNA sequences.
